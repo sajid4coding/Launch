@@ -1,11 +1,12 @@
 <script setup>
-    
+    const bgNav = 'bg-white'
+    const color = 'text-black'
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light" :class="bgNav">
         <div class="container">
-            <a class="navbar-brand text-black" style="font-size: 24px; color: #ffffff; font-weight: 700;" href="#">Launch.</a>
+            <a class="navbar-brand" :class="color" style="font-size: 24px; font-weight: 700;" href="#">Launch.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
