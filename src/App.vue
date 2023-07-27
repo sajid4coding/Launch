@@ -6,6 +6,8 @@
   import Feature3Section from './components/Feature3section.vue';
   import PricingSection from './components/PricingSection.vue';
   import ProductSection from './components/ProductSection.vue';
+  import FeedbackSection from './components/FeedbackSection.vue';
+  import AboutSection from './components/AboutSection.vue';
 </script>
 
 <template>
@@ -16,6 +18,8 @@
   <Feature3Section/>
   <PricingSection/>
   <ProductSection/>
+  <FeedbackSection/>
+  <AboutSection/>
 </template>
 
 <style scoped>
