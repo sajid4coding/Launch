@@ -5,10 +5,10 @@
     const featureTitle = 'Selling Digital <br /> Services'
     const featureParagraph = 'Far far away, behind the word mountains, far <br /> from the countries Vokalia and Consonantia, <br /> there live the blind texts. Separated they live in <br /> Bookmarksgrove right at the coast'
 
-    const tick = {
-        l1: 'There live the blind texts',
-        l2: 'Far far away behind the word',
-    }
+    const ticks = [
+        {id: 1, symbol: '✓', line: 'There live the blind texts'},
+        {id: 2, symbol: '✓', line: 'Far far away behind the word'}
+    ]
 
     const auth = {
         image: 'https://preview.colorlib.com/theme/launch/images/person_1.jpg',
@@ -25,19 +25,9 @@
                 <h1 class="text-black mb-4" v-html="featureTitle"></h1>
                 <p class="text-secondary text-secondary" v-html="featureParagraph"></p>
 
-                <div class="row my-3">
-                    <div class="col-1 tickmark">
-                        <span>✓</span>
-                    </div>
-                    <div class="col-11">
-                        <span>{{ tick.l1 }}</span>
-                    </div>
-
-                    <div class="col-1 tickmark">
-                        <span>✓</span>
-                    </div>
-                    <div class="col-11">
-                        <span>{{ tick.l2 }}</span>
+                <div class="my-3">
+                    <div v-for="tick in ticks" :key="id" class="tickmark">
+                        <P>{{ tick.symbol }} <span>{{ tick.line }}</span></P>
                     </div>
                 </div>
 
@@ -83,7 +73,10 @@
         margin: 10px;
     }
 
-    .col-1.tickmark span {
+    .tickmark p {
         color: #2489FD;
+    }
+    .tickmark span {
+        color: #000;
     }
 </style>
