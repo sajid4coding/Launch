@@ -9,7 +9,7 @@
     <div :style="margin">
         <div class="container" id="hero">
             <div class="row my-5">
-                <div class="col-5">
+                <div class="col-lg-5 col-md-5 col-sm-5">
                     <h1 class="fw-bold text-black mb-5" style="font-size: 4rem">{{ heroTitle }}</h1>
                     <p class="text-secondary">
                         Another cool free html css template by <a href="#" class="text-primary" style="text-decoration: none;">Colorlib</a> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
@@ -19,7 +19,7 @@
                         <button class="border border-primary btn btn-white text-primary m-1" type="button">Pricing</button>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-lg-7 col-md-7 col-sm-7">
                     <img :src="image" alt="">
                 </div>
             </div>

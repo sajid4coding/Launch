@@ -2,8 +2,8 @@
   import Navbar from './components/Navbar.vue';
   import HeroSection from './components/HeroSection.vue';
   import FeatureSection from './components/FeatureSection.vue';
-  import Feature2Section from './components/Feature2section.vue';
-  import Feature3Section from './components/Feature3section.vue';
+  import Feature2Section from './components/Feature2Section.vue';
+  import Feature3Section from './components/Feature3Section.vue';
   import PricingSection from './components/PricingSection.vue';
   import ProductSection from './components/ProductSection.vue';
   import FeedbackSection from './components/FeedbackSection.vue';

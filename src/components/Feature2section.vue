@@ -45,7 +45,20 @@
     <div :style="[bgColor, margin]">
         <div class="container">
             <div class="row d-flex align-items-center">
-                <div class="col-7 my-5">
+                <div class="col-lg-5 col-md-7 col-sm-5">
+                    <div class="row mt-5" style="cursor: pointer;">
+                        <template v-for="feature in features" :key="id">
+                            <div class="col-lg-2 col-md-2 col-sm-2">
+                                <span :style="feature.bgColor" class="p-3 rounded-4 my-5"><Icon :icon="feature.icon" width="30" height="30" color="white" /></span>
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-10 list_style">
+                                <h3 style="font-weight: 500; font-size: 18px;">{{ feature.title }}</h3>
+                                <p style="color: #777;">{{ feature.content }}</p>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-5 col-sm-7 my-5">
                     <div class="border border-5">
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -70,22 +83,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-5">
-                    <div class="row" style="cursor: pointer;" onmouseover="this.style.background='white'" onmouseout="this.style.background='#F8F9FA'">
-                        <template v-for="feature in features" :key="id">
-                            <div class="col-2">
-                                <div :style="feature.bgColor" class="mx-1 p-2 rounded-4 my-4"><Icon :icon="feature.icon" width="30" height="30" color="white" /></div>
-                            </div>
-                            <div class="col-10" style="cursor: pointer;" onmouseover="this.style.background='white'" onmouseout="this.style.background='#F8F9FA'">
-                                <div class="my-4">
-                                    <h3 style="font-weight: 500; font-size: 18px;">{{ feature.title }}</h3>
-                                    <p style="color: #777;">{{ feature.content }}</p>
-                                </div>
-                            </div>
-                        </template>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 </template>
+
+<style scoped>
+    @media (min-width: 299px) and (max-width: 750px) {
+        .list_style {
+            cursor: pointer; 
+            margin-top: 1.5rem; 
+            margin-bottom: 3rem;
+        } 
+    }
+
+    @media (min-width: 800px) and (max-width: 1600px) {
+        .list_style {
+            cursor: pointer; 
+            margin-top: -1rem; 
+            margin-bottom: 3rem;
+        } 
+    }
+</style>

@@ -16,10 +16,10 @@
     <div :style="margin">
         <div class="container" id="about">
             <div class="row">
-                <div class="col-8">
+                <div class="col-lg-8 col-md-8 col-sm-8 my-4">
                     <img :src="aboutImage" :alt="aboutTitle">
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                     <p class="fw-bold text-primary">{{ aboutsecondaryTitle }}</p>
                     <h2 class="mb-4">{{ aboutTitle }}</h2>
                     <p v-html="aboutDescription" class="my-4"></p>

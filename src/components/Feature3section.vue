@@ -44,10 +44,10 @@
     <div :style="margin">
         <div class="container">
             <div class="row d-flex align-items-center">
-                <div class="col-3" v-for="feature in features" :key="id">
+                <div class="col-lg-3 col-md-3 col-sm-6 my-3" v-for="feature in features" :key="id">
                     <span :style="feature.bgColor" class="p-3 rounded-4 my-5"><Icon :icon="feature.icon" width="30" height="30" color="white"/></span>
                     <h3 class="mt-5" style="font-weight: 500; font-size: 18px;">{{ feature.title }}</h3>
-                    <p style="color: #777;">{{ feature.content }}</p>
+                    <p style="color: #777;">{{ feature.content }}33</p>
                 </div>
             </div>
         </div>

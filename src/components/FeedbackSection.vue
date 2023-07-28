@@ -18,15 +18,15 @@
                             style="width: 150px;" />
                         <div class="row d-flex justify-content-center">
                             <div class="col-lg-8">
-                            <h5 class="mb-3">Maria Kate</h5>
-                            <p>Photographer</p>
-                            <p class="text-muted">
-                                <i class="fas fa-quote-left pe-2"></i>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-                                nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
-                                fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
-                                doloremque.
-                            </p>
+                                <h5 class="mb-3">Maria Kate</h5>
+                                <p>Photographer</p>
+                                <p class="text-muted">
+                                    <i class="fas fa-quote-left pe-2"></i>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                                    nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                                    fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                                    doloremque.
+                                </p>
                             </div>
                         </div>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">

@@ -35,8 +35,8 @@
                 <p class="text-secondary">Far from the countries Vokalia and Consonantia</p>
             </div>
             <div class="row">
-                <div class="col-4" v-for="news in newses" :key="id">
-                    <div class="card rounded-3 p-2" style="border: none;">
+                <div class="col-lg-4 col-md-4 col-sm-4" v-for="news in newses" :key="id">
+                    <div class="card rounded-3 p-2 my-3" style="border: none;">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-3">

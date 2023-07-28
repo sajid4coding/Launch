@@ -20,7 +20,7 @@
 <template>
     <div class="container" id="features">
         <div class="row my-5 d-flex align-items-center">
-            <div class="col-5">
+            <div class="col-lg-5 col-md-5 col-sm-5">
                 <h6 class="text-primary">{{ highlightText }}</h6>
                 <h1 class="text-black mb-4" v-html="featureTitle"></h1>
                 <p class="text-secondary text-secondary" v-html="featureParagraph"></p>
@@ -33,7 +33,7 @@
 
                 <p class="text-secondary text-black" v-html="auth.message"></p>
 
-                <div class="row">
+                <div class="row my-4">
                     <div class="col-2">
                         <img style="max-width: 100%; border-radius: 50%;" :src="auth.image" alt="">
                     </div>
@@ -44,7 +44,7 @@
                 </div>
                 
             </div>
-            <div class="col-7">
+            <div class="col-lg-7 col-md-7 col-sm-7">
                 <div class="border border-5">
                     <video controls :poster="image">
                         <source :src="video" type="video/mp4">
