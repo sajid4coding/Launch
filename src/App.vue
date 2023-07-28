@@ -9,7 +9,8 @@
   import FeedbackSection from './components/FeedbackSection.vue';
   import AboutSection from './components/AboutSection.vue';
   import NewsSection from './components/NewsSection.vue';
-  NewsSection
+  import ContactSection from './components/ContactSection.vue';
+  import FooterSection from './components/FooterSection.vue';
 </script>
 
 <template>
@@ -23,6 +24,8 @@
   <FeedbackSection/>
   <AboutSection/>
   <NewsSection/>
+  <ContactSection/>
+  <FooterSection/>
 </template>
 
 <style scoped>
