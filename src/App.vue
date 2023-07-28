@@ -8,6 +8,8 @@
   import ProductSection from './components/ProductSection.vue';
   import FeedbackSection from './components/FeedbackSection.vue';
   import AboutSection from './components/AboutSection.vue';
+  import NewsSection from './components/NewsSection.vue';
+  NewsSection
 </script>
 
 <template>
@@ -20,6 +22,7 @@
   <ProductSection/>
   <FeedbackSection/>
   <AboutSection/>
+  <NewsSection/>
 </template>
 
 <style scoped>
