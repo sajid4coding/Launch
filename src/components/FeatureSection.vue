@@ -18,7 +18,7 @@
     }
 </script>
 <template>
-    <div class="container">
+    <div class="container" id="features">
         <div class="row my-5 d-flex align-items-center">
             <div class="col-5">
                 <h6 class="text-primary">{{ highlightText }}</h6>

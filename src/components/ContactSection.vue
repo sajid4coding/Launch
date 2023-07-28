@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <div class="container" :style="margin">
+    <div class="container" :style="margin" id="contact">
         <section class="mb-4">
 
             <h2 class="h1-responsive font-weight-bold text-center my-4">Get In Touch</h2>

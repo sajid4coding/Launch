@@ -43,7 +43,7 @@
 </script>
 <template>
     <div class="container-fluid" :style="bgColor">
-        <div class="container p-5">
+        <div class="container p-5" id="pricing">
             <div class="text-center my-5">
                 <h1>Pricing</h1>
                 <p>Pricing for everyone. Choose your plan now!</p>

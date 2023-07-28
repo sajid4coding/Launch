@@ -4,16 +4,16 @@
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light" :class="bgNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" :class="bgNav">
         <div class="container">
-            <a class="navbar-brand" :class="color" style="font-size: 24px; font-weight: 700;" href="#">Launch.</a>
+            <a class="navbar-brand" :class="color" style="font-size: 24px; font-weight: 700;" href="#">Sajid.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse my-2" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item m-2">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
                     </li>
                     <li class="nav-item dropdown m-2">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -27,16 +27,19 @@
                         </ul>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link" aria-current="page" href="#">Features</a>
+                        <a class="nav-link" aria-current="page" href="#features">Features</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link" aria-current="page" href="#">Pricing</a>
+                        <a class="nav-link" aria-current="page" href="#pricing">Pricing</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link" aria-current="page" href="#">About</a>
+                        <a class="nav-link" aria-current="page" href="#feedback">Testimonial</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link" aria-current="page" href="#contact">Contact</a>
                     </li>
                 </ul>
                 <form class="d-flex">

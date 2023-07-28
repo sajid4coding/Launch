@@ -14,7 +14,7 @@
 </script>
 <template>
     <div :style="margin">
-        <div class="container">
+        <div class="container" id="about">
             <div class="row">
                 <div class="col-8">
                     <img :src="aboutImage" :alt="aboutTitle">
